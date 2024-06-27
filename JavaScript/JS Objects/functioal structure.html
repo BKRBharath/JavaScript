@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function person(name, Qualification, College, Location) {
+            this.name = name;
+            this.Qualification = Qualification;
+            this.College = College;
+            this.location;
+
+        };
+
+
+
+        let p1 = new person("Bharath", "B tech", "SJCET", "Andhra")
+        let p2 = new person("Nani", "Degree", "Arts", "Kurnool")
+        let p3 = new person("Bharath", "B tech", "SJCET", "Andhra")
+        let p4 = new person("Nani", "Degree", "Arts", "Kurnool")
+        let p5 = new person("Bharath", "B tech", "SJCET", "Andhra")
+        let p6 = new person("Nani", "Degree", "Arts", "Kurnool")
+        let p7 = new person("Bharath", "B tech", "SJCET", "Andhra")
+        let p8 = new person("Nani", "Degree", "Arts", "Kurnool")
+        let p9 = new person("Bharath", "B tech", "SJCET", "Andhra")
+        let p10 = new person("Nani", "Degree", "Arts", "Kurnool")
+
+        let persons = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10];
+        for (let p of persons) {
+            if (p.College == "SJCET") {
+                for (let key in p) {
+                    document.write(key + " : " + p[key] + "<br>")
+                }
+            }
+        }
+
+        // function Mobile(name, prize) {
+        //     this.name = name;
+        //     this.prize = prize;
+
+        // };
+
+        // let m1 = new Mobile("oppo", 25000)
+        // let m2 = new Mobile("apple", 23000)
+
+        // let mobiles = [m1, m2];
+        // for (let m in mobiles) {
+        //     if (m.prize > 20000) {
+        //         for (let key in m) {
+        //             document.write(key + " : " + m[key] + "<br>")
+        //         }
+        //     }
+        // }
+
+
+
+
+    </script>
+</body>
+
+</html>

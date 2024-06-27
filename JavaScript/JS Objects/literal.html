@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let capital = {
+            ap : "amaravathi",
+            telangana : "hyderabad",
+            karnataka : "banglore",
+            tamilnadu : "chennai"
+        };
+       
+        capital.ap = "vizag"
+        capital["india"]="delhi";
+
+        for(let key in capital){
+            document.write(capital[key]+"<br>")
+
+            // document.write(capital.sort())
+        }
+
+         
+
+
+
+    </script>
+</body>
+
+</html>

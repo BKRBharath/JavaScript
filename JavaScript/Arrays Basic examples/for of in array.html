@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // even numbers
+        
+        let arr=[24,54,6,66,90]
+        for(let i=0;i<=arr.length;i++){
+            if (i%2==0){
+                document.write(arr[i])
+            }
+        }
+        // smallest number in array
+        let arr1=[24,54,6,66,90]
+        small=arr1[0]
+        for (let a of arr1){
+            if(a<small){
+                small=a;
+            }
+        }
+        document.write(small)
+    </script>
+</body>
+</html>

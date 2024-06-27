@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- filter  -->
+    <!-- used to apply one function to array of elements and return values to a new array if the given predicate is true  -->
+    <script>
+        let arr=[12,1,32,33,6,52,15]
+
+        let newarr=arr.filter(mulwithtwo);
+        function mulwithtwo(a){
+            if(a%2==0){
+                document.write(a*2+"<br>");
+            }
+        }
+        document.write(newarr)
+
+    </script>
+</body>
+</html>

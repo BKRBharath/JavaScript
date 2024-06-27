@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var marks=prompt("Enter your marks");
+        if(marks<0 && marks>100){
+            document.write("Invalid marks !");
+        }
+        else if(marks>90){
+            document.write("Fisrt class");
+        }
+        else if(marks<90 && marks>75){
+            document.write("distinction");
+        }
+        else if(marks<75 && marks>35){
+            document.write("just pass");
+        }
+        else{
+            document.write("fail");
+        }
+
+    </script>
+</body>
+</html>

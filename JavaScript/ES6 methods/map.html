@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                // for Each used to iterate and apply one function to the array of elements, it will create new array but it cant modify existing array. 
+
+        let arr=[12,12,13,14,56,56,90,76]
+        // arrow function
+        // let newarr=arr.map((a)=>{document.write(a*2+"<br>")});
+        // 
+        let newarr=arr.map(dividebytwo)
+        function dividebytwo(a){
+            document.write(a**2+"<br>")
+        }
+    </script>
+</body>
+</html>
